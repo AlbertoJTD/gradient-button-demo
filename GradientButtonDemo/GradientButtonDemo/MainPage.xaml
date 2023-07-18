@@ -6,7 +6,13 @@
 
     <StackLayout>
         <controls:GradientButton WidthRequest="200"
-                                 HeightRequest="200"/>
+                                 HeightRequest="50"
+                                 VerticalOptions="CenterAndExpand"
+                                 HorizontalOptions="Center"
+                                 BorderRadius="{Binding RadiusTest}"
+                                 Text="{Binding TextTest}"
+                                 GradientStyle="{Binding GradientStyle}"
+                                 Command="{Binding Command}"/>
     </StackLayout>
 
 </ContentPage>
